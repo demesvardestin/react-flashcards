@@ -198,7 +198,7 @@ let theme = createMuiTheme({
  */
 
 const settings = {
-  name: 'React + Material-UI + Firebase'
+  name: 'Flashcard App'
 };
 
 const constraints = {

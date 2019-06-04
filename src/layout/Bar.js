@@ -73,8 +73,8 @@ class Bar extends Component {
     const { menu } = this.state;
 
     return (
-      <AppBar color="primary" position="static">
-        <Toolbar variant="regular">
+      <AppBar color="primary" position="static" className="background-orange">
+        <Toolbar variant="regular" className="container">
           <Typography style={{ flexGrow: 1 }} color="inherit" variant="h6">{name}</Typography>
 
           {isSignedIn &&
